@@ -36,7 +36,8 @@ function Form({addToTeam, errors, change, submit}) {
 
 
        }}>
-        <div>
+        <div className='labels'>
+            <h1>Onboarding</h1>
             <label>
             Name:<input
                 type='text'
