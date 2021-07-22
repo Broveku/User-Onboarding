@@ -74,7 +74,7 @@ function Form({addToTeam, errors, change, submit}) {
             
                 />
             </label>   
-            <button type='submit'>submit</button>
+            <button id='send' type='submit'>submit</button>
             
             </div>
             <div className='errors'>
