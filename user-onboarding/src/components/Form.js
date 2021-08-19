@@ -21,7 +21,7 @@ function Form({addToTeam, errors, change, submit}) {
     })
     
     
-    
+
     
     
     
@@ -39,7 +39,7 @@ function Form({addToTeam, errors, change, submit}) {
         <div className='labels'>
             <h1>Onboarding</h1>
             <label>
-            Name:<input
+            Name: <input
                 type='text'
                 name ='name'
                 value={formData.name}
@@ -47,7 +47,7 @@ function Form({addToTeam, errors, change, submit}) {
                 />
             </label>
             <label>
-            Email:<input
+            Email: <input
                 type='text'
                 name ='email'
                 value={formData.email}
@@ -56,7 +56,7 @@ function Form({addToTeam, errors, change, submit}) {
                 />
             </label>
             <label>
-            Password:<input
+            Password: <input
                 type='password'
                 name='password'
                 value={formData.password}
